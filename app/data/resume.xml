@@ -1,0 +1,215 @@
+<resume>
+  <contact>
+    <name>
+      <first>John</first>
+      <middle>Chrisitian</middle>
+      <last>Stokes</last>
+    </name>
+    <phone>+1 (303) 809-2260</phone>
+    <email>john.stokes.co@gmail.com</email>
+    <address>1017 Delta Dr</address>
+    <city>Lafayette</city>
+    <state>CO</state>
+    <zip>80026</zip>
+    <country>USA</country>
+  </contact>
+  <overview>
+    I am a problem solver looking for the next challenge in my professional life.
+    My experience centers around high performance, high throughput,
+    low latency market data ticker platforms. I also have specialized in data
+    processing (ETL), SQL warehousing, document management, and search solutions. I
+    am now looking for my next problem to solve. I am currently teaching myself
+    web and mobile applications employing AngularJS and Swift to ensure that my
+    capabilities are well rounded with both front and back end development. If I
+    had my dream job in uncharted waters, it would incorporate height maps,
+    drone technologies, or the upcoming world of augmented reality.
+  </overview>
+  <employment>
+    <organization>
+      <name>University Corporation for Atmostpheric Research (UCAR)</name>
+      <url>http://www.unidata.ucar.edu</url>
+    </organization>
+    <title>Systems Administrator</title>
+    <team>Unidata</team>
+    <duration>
+      <join>2001</join>
+      <leave>2005-10-30</leave>
+    </duration>
+    <summary>
+      Student Systems Administrator at a well respected, federally funded
+      reasearch labratory while studying Computer Science at the University of
+      Colorado. My hobby background experience in administratoing the Linux
+      operating system provided me a solid job learning how to stich together all
+      major Unix platforms for a software build environment. I actively worked on
+      centrally managing 30 workstations and 20 servers. Implemented Windows Active
+      Directory support and incorporated LDAP/Kerberos to extend
+      authentication into the Unix platforms as well. Established solid backup
+      routines, automated patch updates, maintained password management, and
+      generally kept a smooth running shop for a small office group of researchers.
+      <br/>
+      My most notable contribution was replacing an big iron sun server running
+      UCAR's primary LDM server with a cheaper distributed solution. This
+      project was self promoted and implemented which eventually replaced the
+      single Sun server costing more than $250,000 with five commodity x86 based
+      servers and an open source load balancer (LVS) costing a total of $25,000.
+      I was offered a full time position as a Systems Administrator II one year
+      prior to graduation, however, I declined and followed through with my
+      education as a software engineer.
+    </summary>
+    <skills>
+      <skill>System Administration</skill>
+      <skill>Windows</skill>
+      <skill>LDAP</skill>
+      <skill>Kerberos</skill>
+      <skill>Linux</skill>
+      <skill>RPM</skill>
+      <skill>yum</skill>
+      <skill>HP/UX</skill>
+      <skill>IRIX</skill>
+      <skill>AIX</skill>
+      <skill>Soliaris</skill>
+      <skill>Active Directory</skill>
+      <skill>Windows Server</skill>
+      <skill>Shell Scripting</skill>
+      <skill>Linux Virtual Server (LVS)</skill>
+    </skills>
+  </employment>
+  <employment>
+    <organization>
+      <name>Wall Street On Demand</name>
+      <url>http://www.markit.com/product/markit-on-demand</url>
+    </organization>
+    <title>Software Engineer</title>
+    <team>Market Data Engineering</team>
+    <duration>
+      <join>2005-12-05</join>
+      <leave>2008</leave>
+    </duration>
+    <summary>
+      Implemented Reuter’s flagship realtime financial ticker and news
+      feed, Reuters Market Data System (RMDS) for the larger organization.
+      This project required an extensive mapping and rules library and engine to
+      ensure that data normalization was possible as the company’s need for breadth
+      in market data grew. Solely architected and implemented the configuration based
+      approach, built from the ground up and provided the basis for all future
+      feed development within the team.
+      <br/>
+      Engaged, onboarded, developed, and maintained a series of feeds through a
+      suite of applications that interface with third party vendors that provide
+      consolidated real-time and delayed market ticker data. Directly worked
+      with data vendors Sungard, Telekurs, and Thomson Reuters. Oversaw and
+      re-architected the mapping engine within the back-end quote server
+      application. Normalized time series data collection and open, high, low,
+      close aggregation.
+      <br/>
+      Designed and developed an application that simulates trade order processing
+      that was used for a handful of stock market trading games and competitions.
+    </summary>
+    <skills>
+      <skill>Object Oriented Programming</skill>
+      <skill>C++</skill>
+      <skill>SQL</skill>
+      <skill>XML</skill>
+      <skill>High Performance Computing</skill>
+      <skill>Concurrency</skill>
+    </skills>
+  </employment>
+  <employment>
+    <title>Senior Software Engineer</title>
+    <subtitle>Lead Senior Software Engineer</subtitle>
+    <team>Access, Entitltments, and Credit Card Services</team>
+    <organization>
+      <name>Wall Street on Demand</name>
+      <url>http://www.markit.com/product/markit-on-demand</url>
+    </organization>
+    <duration>
+      <join>2008</join>
+      <leave>2010-07</leave>
+    </duration>
+    <summary>
+      Lead developer for the company-wide entitlements and compliance
+      system. This system controlled client level, tier level, and individual
+      user level compliance across any platform of data retrieval. The core
+      decision making library is required to quickly make access decisions for
+      high volume quote, document, news, and other data requests. The system was
+      designed to be scalable to handle both growing volume and complexity of
+      requirements. I was also responsible to upgrade and implement the company's
+      Credit Card Processor system which was based on Pay Pal’s merchant services.
+      I added capabilities for in-house subscription services without retaining
+      end users credit card numbers.
+    </summary>
+    <skills>
+      <skill>C++</skill>
+      <skill>XML</skill>
+      <skill>SQL</skill>
+    </skills>
+  </employment>
+  <employment>
+    <title>Director, Software Engineering Team Lead</title>
+    <team>Feed Management Engineering</team>
+    <organization>
+      <name>Markit, Markit On Demand</name>
+      <url>http://www.markit.com/product/markit-on-demand</url>
+    </organization>
+    <duration>
+      <join>2010-07</join>
+      <leave>2015-06-22</leave>
+    </duration>
+    <summary>
+      Responsible for all non-streaming data management within the company
+      with my team of 5-12 talented individuals. Our charter was to own, evolve,
+      and provide the following capabilities housed within more than 30
+      server applications to the larger company:
+      <ul>
+        <li>Custom in-house extract, transform, load (ETL) services.
+          <ul>
+            <li>5,000+ discreet tabular, relational, and document based feeds.</li>
+            <li>Automation point for all non-streaming inbound and outbound data for the company.</li>
+          </ul>
+        </li>
+        <li>Custom in-house Document Management System
+          <ul>
+            <li>Over 400M documents and over 800M files for each of three data centers.</li>
+          </ul>
+        </li>
+        <li>Document search engine utilizing ElasticSearch multi node clusters
+          housed in three data centers nationally.</li>
+        <li>News and document trigger service for end users' registered filtered
+          queries that resulted in email, SMS, or in page notifications.</li>
+      </ul>
+
+      <br/>
+      Responsible for planning and scaling the team's application and server
+      hardware needs. Provided ongoing mentoring, coaching, and guidance to
+      direct reports and other software engineers. Principle archtect for all
+      applications and solutions within the feeds group and consulted with many
+      colleagues on general architectural guidance. Transformed the team from a
+      waterfall methodology into an Agile group using two week sprints. A solid
+      supporter of quick, daily stand-up meetings with the team.
+    </summary>
+    <skills>
+      <skill>C++</skill>
+      <skill>XML</skill>
+      <skill>SQL</skill>
+      <skill>Java</skill>
+      <skill>JavaScript</skill>
+      <skill>Python</skill>
+      <skill>C#</skill>
+      <skill>.NET</skill>
+      <skill>ElasticSearch</skill>
+      <skill>Management</skill>
+      <skill>Software Development Life Cycle</skill>
+      <skill>Agile Development</skill>
+    </skills>
+  </employment>
+  <education>
+    <program>
+      <facility>University of Colorado, Boulder</facility>
+      <certificate>Bachelor of Science(B.S.), Computer Science</certificate>
+      <duration>
+        <leave>2005-05</leave>
+        YYYY-MM-DD HH:MM:SS.mmm T(-)ZZ
+      </duration>
+    </program>
+  </education>
+</resume>

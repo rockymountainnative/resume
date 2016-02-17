@@ -1,0 +1,4 @@
+/* app css stylesheet */
+
+/* allows angular and bootstrap to play nice. */
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
