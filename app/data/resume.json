@@ -123,5 +123,11 @@
     "duration": {
       "leave": "2005-05-01"
     }
-  }]
+  }],
+
+  "additionalSkills": [
+    "AngularJS",
+    "bootstrap",
+    "node.js"
+  ]
 }
