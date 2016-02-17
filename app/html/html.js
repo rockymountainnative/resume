@@ -3,7 +3,7 @@
 //-----------------------------------------------------------------------------
 /* Define gameBoard controller */
 //-----------------------------------------------------------------------------
-angular.module('myApp.html', ['ngRoute', 'ngCookies'])
+angular.module('myApp.html', ['ngRoute', 'ngCookies', 'ngSanitize'])
 
 //-----------------------------------------------------------------------------
 // Configure Route for game-bard view
@@ -19,14 +19,12 @@ angular.module('myApp.html', ['ngRoute', 'ngCookies'])
 // Define controller
 //-----------------------------------------------------------------------------
 .controller('htmlCtrl',
-            ['$location', '$scope', '$cookies', 'ResumeSvc',
-            function($location, $scope, $cookies, ResumeSvc) {
+            ['$location', '$scope', '$cookies', '$sanitize', 'ResumeSvc',
+            function($location, $scope, $cookies, $sanitize, ResumeSvc) {
 
   // Retrieve available levels
   ResumeSvc.get({}, function(data) {
-    //console.log(data);
-    //$scope.resume = data;
-    //console.log($scope.resume);
+    $scope.resume = data;
   });
 
 
