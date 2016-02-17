@@ -1,11 +1,15 @@
 <div class="container">
   <div class="contactInfo">
     <h1>{{resume.contact.name.first}} {{resume.contact.name.last}}</h1>
-    <ul class="addressInfo">
-      <li>{{resume.contact.address}}</li>
-      <li>{{resume.contact.city}}, {{resume.contact.state}} {{resume.contact.zip}}</li>
-      <li>{{resume.contact.phone}}</li>
-      <li>{{resume.contact.email}}</li>
+    <ul class="contactList">
+      <li>
+        <ul class="addressInfo">
+          <li>{{resume.contact.address}}</li>
+          <li>{{resume.contact.city}}, {{resume.contact.state}} {{resume.contact.zip}}</li>
+        </ul>
+      </li>
+      <li class="phoneInfo">{{resume.contact.phone}}</li>
+      <li class="emailInfo">{{resume.contact.email}}</li>
     </ul>
     </address>
   </div>
