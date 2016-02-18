@@ -1,50 +1,67 @@
 <div class="container">
   <div class="row contact-info">
-    <div class="col-xs-12 text-center">
-      <h1>{{resume.contact.name.first}} {{resume.contact.name.last}}</h1>
+    <div class="col-xs-12 text-left">
+      <h1 class="text-uppercase">{{resume.contact.name.first}} {{resume.contact.name.last}}</h1>
     </div>
-    <div class="row text-center">
-    <address>
-      <div class="col-xs-4">
-        <span>{{resume.contact.address}}</span>
-        <span>{{resume.contact.city}}, {{resume.contact.state}} {{resume.contact.zip}}</span>
+    <div class="row">
+      <div class="col-xs-12 text-left">
+        <address>
+          <span>{{resume.contact.address}}</span>
+          <span>{{resume.contact.city}}, {{resume.contact.state}} {{resume.contact.zip}}</span>
+          <span>p: {{resume.contact.phone}}</span>
+          <span>e: {{resume.contact.email}}</span>
+        </address>
       </div>
-      <div class="col-xs-4">{{resume.contact.phone}}</div>
-      <div class="col-xs-4">{{resume.contact.email}}</div>
-    </address>
-  </div>
-  </div>
-
-  <div class="career-objective">
-    <h2>Career Objective</h2>
-    <div>{{resume.overview}}</div>
-  </div>
-
-  <div class="employment-history">
-    <h2>Professional Experience</h2>
-    <ul>
-      <li class="employment" ng-repeat="job in resume.employment">
-        <h3>{{job.organization.name}}, {{job.organization.city}}, {{job.organization.state}}</h3>
-        <h4>{{job.title}}, {{job.duration.join | date : "MMMM yyyy"}} - {{job.duration.leave | date : "MMMM yyyy"}}</h4>
-        <div ng-bind-html="job.summary"></div>
-        <h5>Skills:</h5>
-        <ul>
-          <li ng-repeat="skill in job.skills">{{skill}}</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-  <div class="education-history">
-    <h2>Education</h2>
-    <div class="school" ng-repeat="school in resume.education">
-      <h3>{{school.facility}}</h3>
-      <h4>{{school.certificate}}, {{school.duration.leave | date: "MMMM yyyy"}}</h4>
     </div>
   </div>
-  <div class="additional-skills">
-    <h2>Additional Skills</h2>
-    <ul>
-      <li ng-repeat="skill in resume.additionalSkills">{{skill}}</li>
-    </ul>
+
+  <div class="row career-objective">
+    <!--<h2>Career Objective</h2>-->
+    <!--<div class="text-justify">{{resume.overview}}</div>-->
+    <div class=' col-xs-12 text-justify' ng-bind-html="resume.overview"></div>
+  </div>
+
+  <h2 class="text-uppercase">Experience</h2>
+  <ul class="list-unstyled">
+    <li class="employment" ng-repeat="job in resume.employment">
+      <div class="row">
+        <div class="col-md-3">
+          <h3>{{job.organization.name}}</h3>
+          <h4>{{job.duration.join | date : "MMMM yyyy"}} - {{job.duration.leave | date : "MMMM yyyy"}}</h4>
+        </div>
+        <div class="col-md-9">
+          <h4 class="text-uppercase">{{job.title}}</h4>
+          <div class='text-justify' ng-bind-html="job.summary"></div>
+          <h5>Skills:</h5>
+          <ul class="display: inline-block list-inline">
+            <li ng-repeat="skill in job.skills">{{skill}}</li>
+          </ul>
+        </div>
+      </div>
+    </li>
+  </ul>
+
+  <h2 class="text-uppercase">Education</h2>
+  <ul class="list-unstyled">
+    <li ng-repeat="school in resume.education">
+      <div class="row">
+        <div class="col-md-3">
+          <h3>{{school.facility}}</h3>
+          <h4>{{school.duration.leave | date: "MMMM yyyy"}}</h4>
+        </div>
+        <div class="col-md-9">
+          <h4>{{school.certificate}}</h4>
+        </div>
+      </div>
+    </li>
+  </ul>
+
+  <h2 class="text-uppercase">Additional Skills</h2>
+  <div class="row">
+    <div class="col-md-9 col-md-offset-3">
+      <ul class="list-inline">
+        <li ng-repeat="skill in resume.additionalSkills">{{skill}}</li>
+      </ul>
+    </div>
   </div>
 </div>

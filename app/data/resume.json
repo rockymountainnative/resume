@@ -5,6 +5,7 @@
       "middle": "Chrisitian",
       "last": "Stokes"
     },
+    "title": "Software Engineer",
     "phone": "+1 (303) 809-2260",
     "email": "john.stokes.co@gmail.com",
     "address": "1017 Delta Dr",
@@ -118,7 +119,7 @@
     ]
   }],
   "education": [{
-    "facility": "University of Colorado, Boulder",
+    "facility": "University of Colorado",
     "certificate": "Bachelor of Science (B.S.) in Computer Science",
     "duration": {
       "leave": "2005-05-01"
@@ -128,6 +129,8 @@
   "additionalSkills": [
     "AngularJS",
     "bootstrap",
-    "node.js"
+    "node.js",
+    "HTML5",
+    "CSS"
   ]
 }
